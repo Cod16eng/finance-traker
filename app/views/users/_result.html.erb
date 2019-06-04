@@ -1,0 +1,11 @@
+<div class="results-block col-md-12">
+	<%= bootstrap_flash %>
+</div>
+
+<% if @stock %>
+	<div class="well results-block">
+		<strong>Symbol: </strong> <%= @stock.ticker %><br>
+		<strong>Name: </strong> <%= @stock.name %><br>
+		<strong>Last Price: </strong> <%= @stock.last_price %>
+	</div>
+<% end %>
