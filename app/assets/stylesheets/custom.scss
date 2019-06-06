@@ -1,5 +1,6 @@
 .results-block {
 	display: inline-block;
+  padding: 0 !important;
 }
 
 .no-padding {
@@ -26,4 +27,8 @@
   .btn-danger:hover {
     background-color: darken(#d9534f, 20%) !important;
   }
+}
+
+.footer {
+  margin-top: 50px;
 }
